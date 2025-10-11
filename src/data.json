@@ -1,0 +1,262 @@
+{
+  "boards": [
+    {
+      "name": "Telehealth Platform",
+      "isActive": false,
+      "columns": [
+        {
+          "name": "Todo",
+          "tasks": [
+            {
+              "title": "Design patient onboarding experience",
+              "description": "",
+              "status": "Todo",
+              "subtasks": [
+                {
+                  "title": "Create patient registration form",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Add digital ID verification",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Create patient health history form",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Develop symptom checker AI module",
+              "description": "",
+              "status": "Todo",
+              "subtasks": [
+                {
+                  "title": "Define initial set of conditions",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Build doctor dashboard",
+              "description": "",
+              "status": "Todo",
+              "subtasks": [
+                {
+                  "title": "Appointment management view",
+                  "isCompleted": false
+                },
+                { "title": "Patient record viewer", "isCompleted": false }
+              ]
+            },
+            {
+              "title": "Create clinical validation test cases",
+              "description": "Before launch, we need to verify that the system meets clinical accuracy and safety standards.",
+              "status": "Todo",
+              "subtasks": [
+                {
+                  "title": "Internal QA with medical team",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Run external pilot tests with real patients",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Doing",
+          "tasks": [
+            {
+              "title": "Design patient onboarding experience",
+              "description": "",
+              "status": "Doing",
+              "subtasks": [
+                { "title": "Build call interface", "isCompleted": true },
+                {
+                  "title": "Add screen sharing for lab results",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Implement call recording for audit",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Implement subscription-based access for clinics",
+              "description": "",
+              "status": "Doing",
+              "subtasks": [
+                { "title": "Add tiered pricing", "isCompleted": true },
+                { "title": "Create billing webhook", "isCompleted": true },
+                {
+                  "title": "Handle refund/dispute process",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Design remote vitals tracking flow",
+              "description": "",
+              "status": "Doing",
+              "subtasks": [
+                {
+                  "title": "Heart rate & blood pressure sync",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Blood glucose device support",
+                  "isCompleted": false
+                },
+                { "title": "Daily symptom survey", "isCompleted": false }
+              ]
+            },
+            {
+              "title": "Develop secure EHR integration APIs",
+              "description": "",
+              "status": "Doing",
+              "subtasks": [
+                {
+                  "title": "FHIR-based patient data sync",
+                  "isCompleted": true
+                },
+                { "title": "Implement role-based access", "isCompleted": false }
+              ]
+            },
+            {
+              "title": "Implement AI triage assistant",
+              "description": "Helps doctors quickly assess patient severity based on vitals and symptoms.",
+              "status": "Doing",
+              "subtasks": [
+                { "title": "Define risk scoring model", "isCompleted": true },
+                {
+                  "title": "Develop alert system for critical cases",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Done",
+          "tasks": [
+            {
+              "title": "Conduct 5 usability tests with doctors",
+              "description": "Ensure the workflow matches real-life clinical use.",
+              "status": "Done",
+              "subtasks": [
+                {
+                  "title": "Interview 5 general practitioners",
+                  "isCompleted": true
+                }
+              ]
+            },
+            {
+              "title": "Basic patient dashboard prototype",
+              "description": "Includes appointments and vitals overview.",
+              "status": "Done",
+              "subtasks": [
+                { "title": "Build Figma prototype", "isCompleted": true }
+              ]
+            },
+            {
+              "title": "Legal & Compliance Review",
+              "description": "HIPAA/GDPR and local healthcare policies",
+              "status": "Done",
+              "subtasks": [
+                { "title": "Consult legal advisor", "isCompleted": true },
+                {
+                  "title": "Document compliance protocols",
+                  "isCompleted": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Market Strategy",
+      "isActive": false,
+      "columns": [
+        {
+          "name": "Todo",
+          "tasks": [
+            {
+              "title": "Plan launch with healthcare influencers",
+              "description": "",
+              "status": "Todo",
+              "subtasks": [
+                {
+                  "title": "Identify medical TikTok creators",
+                  "isCompleted": false
+                },
+                { "title": "Prepare outreach material", "isCompleted": false }
+              ]
+            },
+            {
+              "title": "Publish case study with pilot clinic",
+              "description": "",
+              "status": "",
+              "subtasks": [
+                { "title": "Draft content", "isCompleted": false },
+                { "title": "Publish on LinkedIn", "isCompleted": false }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Doing",
+          "tasks": []
+        },
+        {
+          "name": "Done",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "name": "Certification Roadmap",
+      "isActive": false,
+      "columns": [
+        {
+          "name": "Now",
+          "tasks": [
+            {
+              "title": "Prepare ISO 13485 documentation",
+              "description": "",
+              "status": "",
+              "subtasks": [
+                { "title": "Define QMS process", "isCompleted": false },
+                { "title": "Document risk management", "isCompleted": false }
+              ]
+            },
+            {
+              "title": "Apply for digital health certification",
+              "description": "Varies by region (NHS, FDA, NAFDAC)",
+              "status": "",
+              "subtasks": [
+                {
+                  "title": "Identify required documentation",
+                  "isCompleted": false
+                },
+                { "title": "Prepare submission", "isCompleted": false }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Next",
+          "tasks": []
+        },
+        {
+          "name": "Later",
+          "tasks": []
+        }
+      ]
+    }
+  ]
+}
