@@ -111,13 +111,7 @@ Contributions are welcome! Please follow these steps:
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Acknowledgements
 
-- [React](https://reactjs.org/)
-- [Node.js](https://nodejs.org/)
-- [Express](https://expressjs.com/) / [Next.js](https://nextjs.org/) (choose based on your stack)
-- [MongoDB](https://www.mongodb.com/) / [PostgreSQL](https://www.postgresql.org/)
-- [Kanban Methodology](https://kanbanize.com/kanban-resources/getting-started/what-is-kanban)
 
 ---
 
